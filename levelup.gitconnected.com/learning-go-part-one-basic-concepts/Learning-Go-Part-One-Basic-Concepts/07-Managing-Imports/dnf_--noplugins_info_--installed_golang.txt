@@ -1,0 +1,55 @@
+Installed Packages
+Name         : golang
+Version      : 1.22.4
+Release      : 1.fc40
+Architecture : x86_64
+Size         : 8.9 M
+Source       : golang-1.22.4-1.fc40.src.rpm
+Repository   : @System
+From repo    : updates
+Summary      : The Go Programming Language
+URL          : https://go.dev
+License      : BSD-3-Clause AND LicenseRef-Fedora-Public-Domain
+Description  : The Go Programming Language.
+
+Name         : golang-bin
+Version      : 1.22.4
+Release      : 1.fc40
+Architecture : x86_64
+Size         : 104 M
+Source       : golang-1.22.4-1.fc40.src.rpm
+Repository   : @System
+From repo    : updates
+Summary      : Golang core compiler tools
+URL          : https://go.dev
+License      : BSD-3-Clause AND LicenseRef-Fedora-Public-Domain
+Description  : Golang core compiler tools
+
+Name         : golang-src
+Version      : 1.22.4
+Release      : 1.fc40
+Architecture : noarch
+Size         : 71 M
+Source       : golang-1.22.4-1.fc40.src.rpm
+Repository   : @System
+From repo    : updates
+Summary      : Golang compiler source tree
+URL          : https://go.dev
+License      : BSD-3-Clause AND LicenseRef-Fedora-Public-Domain
+Description  : Golang compiler source tree
+
+Name         : golang-x-tools-gopls
+Epoch        : 1
+Version      : 0.11.1
+Release      : 4.fc40
+Architecture : x86_64
+Size         : 19 M
+Source       : golang-x-tools-0.11.1-4.fc40.src.rpm
+Repository   : @System
+From repo    : fedora
+Summary      : LSP server for Go
+URL          : https://github.com/golang/tools
+License      : BSD
+Description  : LSP server for Go.
+             : 
+             : See https://godoc.org/golang.org/x/tools/cmd/gopls for more information.
